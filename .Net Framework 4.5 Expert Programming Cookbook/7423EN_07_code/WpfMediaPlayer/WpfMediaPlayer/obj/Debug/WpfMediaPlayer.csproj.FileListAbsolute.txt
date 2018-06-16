@@ -1,0 +1,13 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\MainWindow.baml
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\MainWindow.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\App.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer_MarkupCompile.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.g.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.csproj.GenerateResource.Cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.pdb

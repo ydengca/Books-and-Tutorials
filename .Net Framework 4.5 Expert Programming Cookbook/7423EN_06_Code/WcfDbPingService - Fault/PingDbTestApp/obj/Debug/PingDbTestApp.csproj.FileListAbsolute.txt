@@ -1,0 +1,27 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\PingDbTestApp\bin\Debug\PingDbTestApp.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\PingDbTestApp\bin\Debug\PingDbTestApp.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\PingDbTestApp\bin\Debug\PingDbTestApp.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\PingDbTestApp\obj\Debug\PingDbTestApp.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\PingDbTestApp\obj\Debug\PingDbTestApp.PingDbTestForm.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\PingDbTestApp\obj\Debug\PingDbTestApp.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\PingDbTestApp\obj\Debug\PingDbTestApp.csproj.GenerateResource.Cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\PingDbTestApp\obj\Debug\PingDbTestApp.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\PingDbTestApp\obj\Debug\PingDbTestApp.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\bin\Debug\PingDbTestApp.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\bin\Debug\PingDbTestApp.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\bin\Debug\PingDbTestApp.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.PingDbTestForm.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.csproj.GenerateResource.Cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\bin\Debug\PingDbTestApp.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\bin\Debug\PingDbTestApp.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\bin\Debug\PingDbTestApp.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.PingDbTestForm.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.csproj.GenerateResource.Cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\PingDbTestApp\obj\Debug\PingDbTestApp.pdb

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CookBookModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="CookBookEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="tb_FileStorage" EntityType="CookBookModel.tb_FileStorage" />
+    <EntitySet Name="tb_User" EntityType="CookBookModel.tb_User" />
+    <FunctionImport Name="GetUsers" ReturnType="Collection(CookBookModel.GetUsers_Result)" />
+    <FunctionImport Name="ReadFile" ReturnType="Collection(CookBookModel.ReadFile_Result)">
+      <Parameter Name="vFileName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SaveFile">
+      <Parameter Name="vFileName" Mode="In" Type="String" />
+      <Parameter Name="vFile" Mode="In" Type="Binary" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="tb_FileStorage">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="File_name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="File_content" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="User_ID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="User_name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="Email_id" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="First_name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="true" />
+    <Property Name="Last_name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="true" />
+  </EntityType>
+  <ComplexType Name="GetUsers_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="User_name" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Email_id" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="First_name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Last_name" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="ReadFile_Result">
+    <Property Type="Byte" Name="ID" Nullable="false" />
+    <Property Type="String" Name="File_name" Nullable="false" MaxLength="50" />
+    <Property Type="Binary" Name="File_content" Nullable="false" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,11 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\bin\Debug\DynamicGridApp.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\bin\Debug\DynamicGridApp.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\bin\Debug\DynamicGridApp.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\bin\Debug\CookBook.Recipes.WindowForms.DataGrid.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\bin\Debug\CookBook.Recipes.WindowForms.DataGrid.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\obj\Debug\DynamicGridApp.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\obj\Debug\DynamicGridApp.DynamicGrid.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\obj\Debug\DynamicGridApp.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\obj\Debug\DynamicGridApp.csproj.GenerateResource.Cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\obj\Debug\DynamicGridApp.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicDataGrid\DynamicGridApp\obj\Debug\DynamicGridApp.pdb

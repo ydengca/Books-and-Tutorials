@@ -1,0 +1,10 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\CookBook.Recipes.Winforms.Events\CookBook.Recipes.Winforms.Events\bin\Debug\CookBook.Recipes.Winforms.Events.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\CookBook.Recipes.Winforms.Events\CookBook.Recipes.Winforms.Events\bin\Debug\CookBook.Recipes.Winforms.Events.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\CookBook.Recipes.Winforms.Events\CookBook.Recipes.Winforms.Events\obj\Debug\CookBook.Recipes.Winforms.Events.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\CookBook.Recipes.Winforms.Events\CookBook.Recipes.Winforms.Events\obj\Debug\CookBook.Recipes.Winforms.Events.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\CookBook.Recipes.Winforms.Events\CookBook.Recipes.Winforms.Events\obj\Debug\CookBook.Recipes.Winforms.Events.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\EventArgs\CookBook.Recipes.Winforms.Events\bin\Debug\CookBook.Recipes.Winforms.Events.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\EventArgs\CookBook.Recipes.Winforms.Events\bin\Debug\CookBook.Recipes.Winforms.Events.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\EventArgs\CookBook.Recipes.Winforms.Events\obj\Debug\CookBook.Recipes.Winforms.Events.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\EventArgs\CookBook.Recipes.Winforms.Events\obj\Debug\CookBook.Recipes.Winforms.Events.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\EventArgs\CookBook.Recipes.Winforms.Events\obj\Debug\CookBook.Recipes.Winforms.Events.pdb

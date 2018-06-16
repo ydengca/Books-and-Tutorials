@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CookBookModelStoreContainer" CdmEntityContainer="CookBookEntities">
+    <EntitySetMapping Name="tb_FileStorage">
+      <EntityTypeMapping TypeName="CookBookModel.tb_FileStorage">
+        <MappingFragment StoreEntitySet="tb_FileStorage">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="File_name" ColumnName="File_name" />
+          <ScalarProperty Name="File_content" ColumnName="File_content" />
+          <ScalarProperty Name="User_ID" ColumnName="User_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_User">
+      <EntityTypeMapping TypeName="CookBookModel.tb_User">
+        <MappingFragment StoreEntitySet="tb_User">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User_name" ColumnName="User_name" />
+          <ScalarProperty Name="Email_id" ColumnName="Email_id" />
+          <ScalarProperty Name="First_name" ColumnName="First_name" />
+          <ScalarProperty Name="Last_name" ColumnName="Last_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="CookBookModel.Store.GetUserDetails" FunctionImportName="GetUserDetails" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,11 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TwoTableJoin\TwoTableJoin\bin\Debug\TwoTableJoin.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TwoTableJoin\TwoTableJoin\bin\Debug\TwoTableJoin.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TwoTableJoin\TwoTableJoin\bin\Debug\TwoTableJoin.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TwoTableJoin\TwoTableJoin\obj\Debug\TwoTableJoin.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TwoTableJoin\TwoTableJoin\obj\Debug\TwoTableJoin.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TwoTableJoin\TwoTableJoin\obj\Debug\TwoTableJoin.UserData.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TwoTableJoin\TwoTableJoin\obj\Debug\TwoTableJoin.csproj.GenerateResource.Cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TwoTableJoin\TwoTableJoin\obj\Debug\TwoTableJoin.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TwoTableJoin\TwoTableJoin\obj\Debug\TwoTableJoin.pdb
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter10\Code\TwoTableJoin\TwoTableJoin\bin\Debug\TwoTableJoin.exe.config
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter10\Code\TwoTableJoin\TwoTableJoin\obj\Debug\TwoTableJoin.pdb

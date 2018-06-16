@@ -1,0 +1,12 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\bin\Debug\WcfFileUploadService.dll.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\bin\Debug\WcfFileUploadService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\bin\Debug\WcfFileUploadService.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\obj\Debug\WcfFileUploadService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\obj\Debug\WcfFileUploadService.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\obj\Debug\WcfFileUploadService.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\bin\Debug\WcfFileUploadService.dll.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\bin\Debug\WcfFileUploadService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\bin\Debug\WcfFileUploadService.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\obj\Debug\WcfFileUploadService.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\obj\Debug\WcfFileUploadService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfFileUploadService\WcfFileUploadService\obj\Debug\WcfFileUploadService.pdb

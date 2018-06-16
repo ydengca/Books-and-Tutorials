@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="ClientSidePersistance.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="159" d:DesignWidth="362">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125*"/>
+            <ColumnDefinition Width="131*"/>
+            <ColumnDefinition Width="106*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="38*"/>
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="46*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="txtUserName" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+        <TextBox x:Name="txtFullName" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" Grid.Row="1"/>
+        <TextBox x:Name="txtEmail" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" Grid.Row="2"/>
+        <Button x:Name="btnDraft" Content="Save Draft" HorizontalAlignment="Left" Margin="25,8,0,0" Grid.Row="3" VerticalAlignment="Top" Width="75" Click="btnDraft_Click"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="22,8,0,0" Grid.Row="3" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="btnClear_Click"/>
+        <Button x:Name="btnLoad" Content="Load" HorizontalAlignment="Left" Margin="16,8,0,0" Grid.Row="3" VerticalAlignment="Top" Width="75" Grid.Column="2" Click="btnLoad_Click"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Margin="5,14,0,0" Width="100" Height="18"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Full Name" VerticalAlignment="Top" Width="100" Height="18" Grid.Row="1" Margin="4,10,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="100" Height="18" Grid.Row="2" Margin="5,8,0,0"/>
+
+    </Grid>
+</UserControl>

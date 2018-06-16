@@ -1,0 +1,17 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\WcfDbPingService\bin\Debug\WcfDbPingService.dll.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\WcfDbPingService\bin\Debug\WcfDbPingService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\WcfDbPingService\bin\Debug\WcfDbPingService.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\WcfDbPingService\obj\Debug\WcfDbPingService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService\WcfDbPingService\obj\Debug\WcfDbPingService.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\bin\Debug\WcfDbPingService.dll.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\bin\Debug\WcfDbPingService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\bin\Debug\WcfDbPingService.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\obj\Debug\WcfDbPingService.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\obj\Debug\WcfDbPingService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\obj\Debug\WcfDbPingService.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\bin\Debug\WcfDbPingService.dll.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\bin\Debug\WcfDbPingService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\bin\Debug\WcfDbPingService.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\obj\Debug\WcfDbPingService.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\obj\Debug\WcfDbPingService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_07_1stDraft\Code\WcfDbPingService - Fault\WcfDbPingService\obj\Debug\WcfDbPingService.pdb

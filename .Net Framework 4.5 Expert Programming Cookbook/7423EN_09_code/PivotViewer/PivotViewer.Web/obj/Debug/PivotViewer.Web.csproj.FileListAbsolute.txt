@@ -1,0 +1,10 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer.Web\bin\PivotViewer.Web.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer.Web\bin\PivotViewer.Web.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer.Web\obj\Debug\PivotViewer.Web.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer.Web\obj\Debug\PivotViewer.Web.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer.Web\obj\Debug\PivotViewer.Web.pdb
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer.Web\bin\PivotViewer.Web.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer.Web\bin\PivotViewer.Web.pdb
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer.Web\obj\Debug\PivotViewer.Web.csprojResolveAssemblyReference.cache
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer.Web\obj\Debug\PivotViewer.Web.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer.Web\obj\Debug\PivotViewer.Web.pdb

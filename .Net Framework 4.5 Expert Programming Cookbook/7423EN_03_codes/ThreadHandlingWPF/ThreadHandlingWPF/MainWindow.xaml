@@ -1,0 +1,25 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ThreadHandlingWPF.MainWindow"
+        Title="MainWindow" Height="277" Width="466">
+    <Grid HorizontalAlignment="Right" Width="413" Margin="0,0,27,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="81*"/>
+            <ColumnDefinition Width="199*"/>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="98*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="54*"/>
+            <RowDefinition Height="185*"/>
+        </Grid.RowDefinitions>
+        <ListBox x:Name="lstFileList" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="165" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="395" d:LayoutOverrides="Margin"/>
+        <Label Content="Directory" HorizontalAlignment="Left" Margin="20,14,0,0" VerticalAlignment="Top" Height="26" Width="58" d:LayoutOverrides="Margin"/>
+        <TextBlock x:Name="txtPath" Grid.Column="1" HorizontalAlignment="Left" Margin="4,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185" Height="16" d:LayoutOverrides="Margin"/>
+        <Button x:Name="btnSelectDir" Content="..." Grid.Column="2" HorizontalAlignment="Left" Margin="6,26,0,0" VerticalAlignment="Top" Width="20" Height="22" d:LayoutOverrides="Margin" Click="btnSelectDir_Click"/>
+        <Button x:Name="btnListFiles" Content="List Files" Grid.Column="3" HorizontalAlignment="Left" Margin="5,25,0,0" VerticalAlignment="Top" Width="75" Click="btnListFiles_Click"/>
+
+    </Grid>
+</Window>

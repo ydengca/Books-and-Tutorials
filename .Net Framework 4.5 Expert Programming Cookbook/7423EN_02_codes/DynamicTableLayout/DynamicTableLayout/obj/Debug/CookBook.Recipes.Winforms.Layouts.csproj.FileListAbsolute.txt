@@ -1,0 +1,5 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicTableLayout\DynamicTableLayout\bin\Debug\DynamicTableLayout.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicTableLayout\DynamicTableLayout\bin\Debug\DynamicTableLayout.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicTableLayout\DynamicTableLayout\obj\Debug\CookBook.Recipes.Winforms.Layouts.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicTableLayout\DynamicTableLayout\obj\Debug\DynamicTableLayout.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\DynamicTableLayout\DynamicTableLayout\obj\Debug\DynamicTableLayout.pdb

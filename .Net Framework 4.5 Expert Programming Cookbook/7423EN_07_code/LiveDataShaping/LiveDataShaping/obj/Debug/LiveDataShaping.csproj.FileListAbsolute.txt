@@ -1,0 +1,13 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\bin\Debug\LiveDataShaping.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\bin\Debug\LiveDataShaping.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\bin\Debug\LiveDataShaping.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\obj\Debug\LiveDataShaping.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\obj\Debug\MainWindow.baml
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\obj\Debug\MainWindow.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\obj\Debug\App.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\obj\Debug\LiveDataShaping_MarkupCompile.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\obj\Debug\LiveDataShaping.g.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\obj\Debug\LiveDataShaping.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\obj\Debug\LiveDataShaping.csproj.GenerateResource.Cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\obj\Debug\LiveDataShaping.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\LiveDataShaping\LiveDataShaping\obj\Debug\LiveDataShaping.pdb

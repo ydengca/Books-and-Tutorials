@@ -1,0 +1,6 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfRestService\WcfRestService\bin\Debug\WcfRestService.dll.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfRestService\WcfRestService\bin\Debug\WcfRestService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfRestService\WcfRestService\bin\Debug\WcfRestService.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfRestService\WcfRestService\obj\Debug\WcfRestService.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfRestService\WcfRestService\obj\Debug\WcfRestService.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WcfRestService\WcfRestService\obj\Debug\WcfRestService.pdb

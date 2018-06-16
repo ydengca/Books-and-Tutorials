@@ -1,0 +1,20 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\Bin\Debug\Webcam.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\Bin\Debug\Webcam.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\Bin\Debug\AppManifest.xaml
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\Bin\Debug\Webcam.xap
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\Bin\Debug\WebcamTestPage.html
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\obj\Debug\Webcam.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\obj\Debug\App.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\obj\Debug\MainPage.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\obj\Debug\Webcam.g.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\obj\Debug\Webcam.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\obj\Debug\Webcam.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\Webcam\Webcam\obj\Debug\XapCacheFile.xml
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\Webcam\Webcam\Bin\Debug\Webcam.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\Webcam\Webcam\Bin\Debug\Webcam.pdb
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\Webcam\Webcam\obj\Debug\Webcam.csprojResolveAssemblyReference.cache
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\Webcam\Webcam\obj\Debug\App.g.cs
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\Webcam\Webcam\obj\Debug\MainPage.g.cs
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\Webcam\Webcam\obj\Debug\Webcam.g.resources
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\Webcam\Webcam\obj\Debug\Webcam.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\Webcam\Webcam\obj\Debug\Webcam.pdb

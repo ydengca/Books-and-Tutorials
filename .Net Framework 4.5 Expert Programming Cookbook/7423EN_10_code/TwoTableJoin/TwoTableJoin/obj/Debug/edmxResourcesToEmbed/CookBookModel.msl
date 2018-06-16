@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CookBookModelStoreContainer" CdmEntityContainer="CookBookEntities">
+    <EntitySetMapping Name="Files">
+      <EntityTypeMapping TypeName="CookBookModel.Files">
+        <MappingFragment StoreEntitySet="tb_FileStorage">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="File_name" ColumnName="File_name" />
+          <ScalarProperty Name="File_content" ColumnName="File_content" />
+          <ScalarProperty Name="User_ID" ColumnName="User_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="CookBookModel.User">
+        <MappingFragment StoreEntitySet="tb_User">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User_name" ColumnName="User_name" />
+          <ScalarProperty Name="Email_id" ColumnName="Email_id" />
+          <ScalarProperty Name="First_name" ColumnName="First_name" />
+          <ScalarProperty Name="Last_name" ColumnName="Last_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetUsers" FunctionName="CookBookModel.Store.GetUsers">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CookBookModel.GetUsers_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User_name" ColumnName="User_name" />
+          <ScalarProperty Name="Email_id" ColumnName="Email_id" />
+          <ScalarProperty Name="First_name" ColumnName="First_name" />
+          <ScalarProperty Name="Last_name" ColumnName="Last_name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ReadFile" FunctionName="CookBookModel.Store.ReadFile">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CookBookModel.ReadFile_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="File_name" ColumnName="File_name" />
+          <ScalarProperty Name="File_content" ColumnName="File_content" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SaveFile" FunctionName="CookBookModel.Store.SaveFile" />
+  </EntityContainerMapping>
+</Mapping>

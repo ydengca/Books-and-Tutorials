@@ -1,0 +1,232 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\PivotViewer.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\PivotViewer.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\AppManifest.xaml
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\PivotViewer.xap
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\PivotViewerTestPage.html
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\System.Windows.Controls.Pivot.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\System.Windows.Controls.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\System.Xml.Serialization.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\System.Xml.Linq.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\System.Windows.Controls.Pivot.xml
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\System.Windows.Controls.xml
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\System.Xml.Serialization.xml
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\System.Xml.Linq.xml
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ar\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\bg\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ca\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\cs\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\da\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\de\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\el\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\es\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\et\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\eu\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\fi\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\fr\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\he\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\hr\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\hu\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\id\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\it\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ja\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ko\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\lt\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\lv\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ms\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\nl\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\no\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\pl\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\pt\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\pt-BR\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ro\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ru\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\sk\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\sl\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\sv\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\th\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\tr\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\uk\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\vi\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\zh-Hans\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\zh-Hant\System.Windows.Controls.Pivot.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\de\System.Xml.Serialization.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\es\System.Xml.Serialization.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\it\System.Xml.Serialization.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ru\System.Xml.Serialization.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\obj\Debug\PivotViewer.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\obj\Debug\App.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\obj\Debug\MainPage.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\obj\Debug\PivotViewer.g.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\obj\Debug\PivotViewer.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\obj\Debug\PivotViewer.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_10_1stDraft\Codes\PivotViewer\PivotViewer\obj\Debug\XapCacheFile.xml
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\PivotViewer.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\PivotViewer.pdb
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\System.Windows.Controls.Pivot.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\System.Windows.Controls.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\System.Xml.Serialization.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\System.Xml.Linq.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\System.Windows.Controls.Pivot.xml
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\System.Windows.Controls.xml
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\System.Xml.Serialization.xml
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\System.Xml.Linq.xml
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ar\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\bg\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ca\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\cs\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\da\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\de\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\el\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\es\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\et\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\eu\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\fi\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\fr\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\he\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\hr\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\hu\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\id\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\it\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ja\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ko\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\lt\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\lv\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ms\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\nl\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\no\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\pl\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\pt\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\pt-BR\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ro\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ru\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\sk\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\sl\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\sv\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\th\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\tr\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\uk\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\vi\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\zh-Hans\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\zh-Hant\System.Windows.Controls.Pivot.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ar\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\bg\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ca\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\cs\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\da\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\de\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\el\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\es\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\et\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\eu\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\fi\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\fr\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\he\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\hr\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\hu\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\id\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\it\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ja\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ko\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\lt\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\lv\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ms\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\nl\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\no\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\pl\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\pt\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ro\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ru\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\sk\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\sl\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\sv\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\th\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\tr\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\uk\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\vi\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\de\System.Xml.Serialization.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\es\System.Xml.Serialization.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\it\System.Xml.Serialization.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ru\System.Xml.Serialization.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\de\System.Xml.Linq.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\es\System.Xml.Linq.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\fr\System.Xml.Linq.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\it\System.Xml.Linq.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ja\System.Xml.Linq.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ko\System.Xml.Linq.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\ru\System.Xml.Linq.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\obj\Debug\PivotViewer.csprojResolveAssemblyReference.cache
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\obj\Debug\App.g.cs
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\obj\Debug\MainPage.g.cs
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\obj\Debug\PivotViewer.g.resources
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\obj\Debug\PivotViewer.dll
+\\192.168.0.200\Current-Titles\02_Enterprise\7423EN_ .Net Framework 4.5 Expert programming Cookbook\Chapter09\Code\PivotViewer\PivotViewer\obj\Debug\PivotViewer.pdb

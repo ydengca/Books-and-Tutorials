@@ -1,0 +1,5 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_05_1stDraft\Code\SLAspxCommunication\SLAspxCommunication.Web\bin\SLAspxCommunication.Web.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_05_1stDraft\Code\SLAspxCommunication\SLAspxCommunication.Web\bin\SLAspxCommunication.Web.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_05_1stDraft\Code\SLAspxCommunication\SLAspxCommunication.Web\obj\Debug\SLAspxCommunication.Web.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_05_1stDraft\Code\SLAspxCommunication\SLAspxCommunication.Web\obj\Debug\SLAspxCommunication.Web.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_05_1stDraft\Code\SLAspxCommunication\SLAspxCommunication.Web\obj\Debug\SLAspxCommunication.Web.pdb

@@ -1,0 +1,10 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\Model\bin\Debug\Model.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\Model\bin\Debug\Model.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\Model\obj\Debug\Model.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\Model\obj\Debug\Model.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM-Model\Model\bin\Debug\Model.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM-Model\Model\bin\Debug\Model.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM-Model\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM-Model\Model\obj\Debug\Model.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM-Model\Model\obj\Debug\Model.pdb

@@ -1,0 +1,11 @@
+﻿<Window x:Class="ParallelImageRotateContinue.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txtPath" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,25,0,0" Width="160"/>
+        <Button x:Name="btnSelectDir" Content="Select Directory" HorizontalAlignment="Left" Margin="232,24,0,0" VerticalAlignment="Top" Width="98" Click="btnSelectDir_Click"/>
+        <Label x:Name="lblImagesProcessed" Content="" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top" Width="316" Height="187"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TableValuedFunction\TableValuedFunction\bin\Debug\TableValuedFunction.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TableValuedFunction\TableValuedFunction\bin\Debug\TableValuedFunction.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TableValuedFunction\TableValuedFunction\bin\Debug\TableValuedFunction.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TableValuedFunction\TableValuedFunction\obj\Debug\TableValuedFunction.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TableValuedFunction\TableValuedFunction\obj\Debug\TableValuedFunction.UserDetails.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TableValuedFunction\TableValuedFunction\obj\Debug\TableValuedFunction.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TableValuedFunction\TableValuedFunction\obj\Debug\TableValuedFunction.csproj.GenerateResource.Cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TableValuedFunction\TableValuedFunction\obj\Debug\TableValuedFunction.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_11_1stDraft\Codes\TableValuedFunction\TableValuedFunction\obj\Debug\TableValuedFunction.pdb

@@ -1,0 +1,34 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\bin\Debug\WpfMVVM.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\bin\Debug\WpfMVVM.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\bin\Debug\WpfMVVM.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\WpfMVVM.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\MainWindow.baml
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\MainWindow.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\App.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\WpfMVVM_MarkupCompile.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\WpfMVVM.g.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\WpfMVVM.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\WpfMVVM.csproj.GenerateResource.Cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\WpfMVVM.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\WpfMVVM.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM\WpfMVVM\bin\Debug\WpfMVVM.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\WpfMVVM.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM\WpfMVVM\obj\Debug\WpfMVVM.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - ViewModel\WpfMVVM\bin\Debug\WpfMVVM.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - ViewModel\WpfMVVM\obj\Debug\WpfMVVM.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - ViewModel\WpfMVVM\obj\Debug\WpfMVVM.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\bin\Debug\WpfMVVM.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\obj\Debug\WpfMVVM.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\obj\Debug\WpfMVVM.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\bin\Debug\WpfMVVM.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\bin\Debug\WpfMVVM.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\bin\Debug\Model.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\bin\Debug\Model.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\obj\Debug\WpfMVVM.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\obj\Debug\MainWindow.baml
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\obj\Debug\MainWindow.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\obj\Debug\App.g.cs
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\obj\Debug\WpfMVVM_MarkupCompile.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\obj\Debug\WpfMVVM.g.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\obj\Debug\WpfMVVM.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\WpfMVVM\obj\Debug\WpfMVVM.csproj.GenerateResource.Cache

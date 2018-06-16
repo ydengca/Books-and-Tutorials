@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CookBookModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="CookBookModelStoreContainer">
+          <EntitySet Name="tb_FileStorage" EntityType="CookBookModel.Store.tb_FileStorage" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tb_User" EntityType="CookBookModel.Store.tb_User" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="tb_FileStorage">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="tinyint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="File_name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="File_content" Type="varbinary(max)" Nullable="false" />
+          <Property Name="User_ID" Type="int" />
+        </EntityType>
+        <EntityType Name="tb_User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="User_name" Type="nchar" Nullable="false" MaxLength="50" />
+          <Property Name="Email_id" Type="nchar" Nullable="false" MaxLength="50" />
+          <Property Name="First_name" Type="nchar" Nullable="false" MaxLength="100" />
+          <Property Name="Last_name" Type="nchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+        <Function Name="GetUserDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="vID" Type="int" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="ID" Type="tinyint" Nullable="false" />
+                <Property Name="File_name" Type="nvarchar" Nullable="false" MaxLength="50" />
+                <Property Name="File_content" Type="varbinary(max)" Nullable="false" />
+                <Property Name="User_ID" Type="int" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CookBookModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="CookBookEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="tb_FileStorage" EntityType="CookBookModel.tb_FileStorage" />
+          <EntitySet Name="tb_User" EntityType="CookBookModel.tb_User" />
+          <FunctionImport Name="GetUserDetails" IsComposable="true" EntitySet="tb_FileStorage" ReturnType="Collection(CookBookModel.tb_FileStorage)">
+            <Parameter Name="vID" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="GetUserDetails_Result">
+          <Property Name="ID" Type="Byte" Nullable="false" />
+          <Property Name="File_name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="File_content" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+          <Property Name="User_ID" Type="Int32" />
+        </ComplexType>
+        <EntityType Name="tb_FileStorage">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Byte" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="File_name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="File_content" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+          <Property Name="User_ID" Type="Int32" />
+        </EntityType>
+        <EntityType Name="tb_User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="User_name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+          <Property Name="Email_id" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+          <Property Name="First_name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="true" />
+          <Property Name="Last_name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CookBookModelStoreContainer" CdmEntityContainer="CookBookEntities">
+          <EntitySetMapping Name="tb_FileStorage">
+            <EntityTypeMapping TypeName="CookBookModel.tb_FileStorage">
+              <MappingFragment StoreEntitySet="tb_FileStorage">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="File_name" ColumnName="File_name" />
+                <ScalarProperty Name="File_content" ColumnName="File_content" />
+                <ScalarProperty Name="User_ID" ColumnName="User_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_User">
+            <EntityTypeMapping TypeName="CookBookModel.tb_User">
+              <MappingFragment StoreEntitySet="tb_User">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="User_name" ColumnName="User_name" />
+                <ScalarProperty Name="Email_id" ColumnName="Email_id" />
+                <ScalarProperty Name="First_name" ColumnName="First_name" />
+                <ScalarProperty Name="Last_name" ColumnName="Last_name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionName="CookBookModel.Store.GetUserDetails" FunctionImportName="GetUserDetails">
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

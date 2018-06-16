@@ -1,0 +1,11 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\bin\Release\MediaPlayer.exe.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\obj\Release\Interop.WMPLib.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\obj\Release\MediaPlayer.csproj.ResolveComReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\bin\Release\MediaPlayer.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\bin\Release\MediaPlayer.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\obj\Release\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\obj\Release\MediaPlayer.Player.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\obj\Release\MediaPlayer.Properties.Resources.resources
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\obj\Release\MediaPlayer.csproj.GenerateResource.Cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\obj\Release\MediaPlayer.exe
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_02_1stDraft\Codes\MediaPlayer\MediaPlayer\obj\Release\MediaPlayer.pdb

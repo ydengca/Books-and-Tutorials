@@ -1,0 +1,16 @@
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\ModelViewModelTests\obj\Debug\ModelViewModelTests.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\ModelViewModelTests\bin\Debug\ModelViewModelTests.dll.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\ModelViewModelTests\bin\Debug\ModelViewModelTests.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\ModelViewModelTests\bin\Debug\ModelViewModelTests.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\ModelViewModelTests\bin\Debug\Model.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\ModelViewModelTests\bin\Debug\Model.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\ModelViewModelTests\obj\Debug\ModelViewModelTests.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7432EN_07_1stDraft\Code\WpfMVVM\ModelViewModelTests\obj\Debug\ModelViewModelTests.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\ModelViewModelTests\bin\Debug\ModelViewModelTests.dll.config
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\ModelViewModelTests\bin\Debug\ModelViewModelTests.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\ModelViewModelTests\bin\Debug\ModelViewModelTests.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\ModelViewModelTests\bin\Debug\Model.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\ModelViewModelTests\bin\Debug\Model.pdb
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\ModelViewModelTests\obj\Debug\ModelViewModelTests.csprojResolveAssemblyReference.cache
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\ModelViewModelTests\obj\Debug\ModelViewModelTests.dll
+C:\Book\DotNet4_5 Cookbook\Chapters\7423EN_08_1stDraft\Code\WpfMVVM - View\ModelViewModelTests\obj\Debug\ModelViewModelTests.pdb
