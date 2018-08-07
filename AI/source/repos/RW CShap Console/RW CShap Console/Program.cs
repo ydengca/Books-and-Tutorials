@@ -3,12 +3,44 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace RW_CShap_Console
 {
     class Program
     {
         static void Main(string[] args)
+        {
+            chp2();
+            chp6();
+            chp12();
+        }
+
+        static void chp2()
+        {
+            Console.WriteLine("Please enter your first name:");
+            string FirstName = Console.ReadLine();
+
+            Console.WriteLine("Please enter your last name:");
+            string LastName = Console.ReadLine();
+
+            Console.WriteLine("Hello {0}, {1}", FirstName, LastName);
+            Console.Read();
+        }
+
+        static void chp6()
+        {
+            Console.WriteLine("How many tickets are on sale?");
+            //int? TicketOnSale = Console.ReadLine() ;
+
+            int? TicketOnSale = null;
+            int AvailableTickets = TicketOnSale ?? 0;
+
+            Console.WriteLine("Available tickets: {0}", AvailableTickets);
+            Console.Read();
+        }
+
+        static void chp12()
         {
             int TotalCoffeeCost = 0;
 
@@ -47,31 +79,6 @@ namespace RW_CShap_Console
                     goto Decide;
             }
 
-            Console.Read();
-
-        }
-
-        static void chp2(string[] args)
-        {
-            Console.WriteLine("Please enter your first name:");
-            string FirstName = Console.ReadLine();
-
-            Console.WriteLine("Please enter your last name:");
-            string LastName = Console.ReadLine();
-
-            Console.WriteLine("Hello {0}, {1}", FirstName, LastName);
-            Console.Read();
-        }
-
-        static void chp6(string[] args)
-        {
-            Console.WriteLine("How many tickets are on sale?");
-            //int? TicketOnSale = Console.ReadLine() ;
-
-            int? TicketOnSale = null;
-            int AvailableTickets = TicketOnSale ?? 0;
-
-            Console.WriteLine("Available tickets: {0}", AvailableTickets);
             Console.Read();
         }
     }
