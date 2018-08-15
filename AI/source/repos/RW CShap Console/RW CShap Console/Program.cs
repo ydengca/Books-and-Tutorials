@@ -11,9 +11,9 @@ namespace RW_CShap_Console
     {
         static void Main(string[] args)
         {
-            chp2();
-            chp6();
-            chp12();
+            //chp2();
+            //chp6();
+            //chp12();
         }
 
         static void chp2()
