@@ -17,3 +17,7 @@ Appendix B
 Appendix C
 
 We hope you enjoy the supporting materials included and that they enhance your experience with both the book and the DVD.
+
+Code URL: http://www.wrox.com/WileyCDA/WroxTitle/Knight-s-Microsoft-SQL-Server-2012-Integration-Services-24-Hour-Trainer.productCd-1118479580,descCd-DOWNLOAD.html
+
+Video URL: http://www.wrox.com/WileyCDA/Section/id-814197.html
