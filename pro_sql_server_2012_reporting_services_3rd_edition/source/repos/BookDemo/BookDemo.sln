@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "BookDemo", "BookDemo\BookDemo.rptproj", "{48E0752B-46B8-4DEC-BE51-FADE4492CDEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48E0752B-46B8-4DEC-BE51-FADE4492CDEC}.Debug|Default.ActiveCfg = Debug
+		{48E0752B-46B8-4DEC-BE51-FADE4492CDEC}.Debug|Default.Build.0 = Debug
+		{48E0752B-46B8-4DEC-BE51-FADE4492CDEC}.Debug|Default.Deploy.0 = Debug
+		{48E0752B-46B8-4DEC-BE51-FADE4492CDEC}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{48E0752B-46B8-4DEC-BE51-FADE4492CDEC}.DebugLocal|Default.Build.0 = DebugLocal
+		{48E0752B-46B8-4DEC-BE51-FADE4492CDEC}.Release|Default.ActiveCfg = Release
+		{48E0752B-46B8-4DEC-BE51-FADE4492CDEC}.Release|Default.Build.0 = Release
+		{48E0752B-46B8-4DEC-BE51-FADE4492CDEC}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35493E8D-02BE-4930-A97B-70B64C562B7B}
+	EndGlobalSection
+EndGlobal

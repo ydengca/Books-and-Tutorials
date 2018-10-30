@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Datawarehouse Load", "Datawarehouse Load\Datawarehouse Load.dtproj", "{899C726A-3893-4C5B-BA2C-113F607B3396}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{899C726A-3893-4C5B-BA2C-113F607B3396}.Development|Default.ActiveCfg = Development
+		{899C726A-3893-4C5B-BA2C-113F607B3396}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

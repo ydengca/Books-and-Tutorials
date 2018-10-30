@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/6/2012 6:06:07 PM"
+  DTS:CreationName="SSIS.Package.3"
+  DTS:CreatorComputerName="MRNR-D630-06"
+  DTS:CreatorName="MARINER\wsnyder"
+  DTS:DTSID="{59A82B45-29EB-4E9A-8D27-0ECA26BD2E33}"
+  DTS:EnableConfig="True"
+  DTS:ExecutableType="SSIS.Package.3"
+  DTS:LastModifiedProductVersion="11.0.2100.60"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Lesson44ConnectionString"
+  DTS:PackageType="5"
+  DTS:ProtectionLevel="0"
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{48314CC5-D7E5-422A-804D-57FCF4BF2972}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">6</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ConfigurationDatabase]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{23A7E287-EF4F-4785-A55B-B84F2596F4CB}"
+      DTS:ObjectName="ConfigurationDatabase">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorks2012;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SourceDatabase]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{BD01C214-3678-4D2D-947A-537AC30B9031}"
+      DTS:ObjectName="SourceDatabase">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorks2012;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Configurations>
+    <DTS:Configuration
+      DTS:ConfigurationString="&quot;ConfigurationDatabase&quot;;&quot;[dbo].[SSIS Configurations]&quot;;&quot;ERPSource&quot;;"
+      DTS:ConfigurationType="7"
+      DTS:CreationName=""
+      DTS:DTSID="{4CDD0CCC-F470-41DA-B8E7-2DDFFCB9187C}"
+      DTS:ObjectName="SourceERPDatabase" />
+  </DTS:Configurations>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql11">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

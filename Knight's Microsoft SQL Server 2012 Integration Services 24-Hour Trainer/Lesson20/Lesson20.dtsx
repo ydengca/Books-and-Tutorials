@@ -1,0 +1,693 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/4/2012 10:01:58 PM"
+  DTS:CreationName="SSIS.Package.3"
+  DTS:CreatorComputerName="FL-WS-CON-DK02"
+  DTS:CreatorName="PWCORP\dknight"
+  DTS:DTSID="{F8177025-601E-459C-A64E-DAF6E70C36C8}"
+  DTS:ExecutableType="SSIS.Package.3"
+  DTS:LastModifiedProductVersion="11.0.2100.60"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Lesson18"
+  DTS:PackageType="5"
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{350FA20D-4A51-4240-A9F1-E0C50F76E658}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">6</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[AdventureWorks2012]"
+      DTS:CreationName="OLEDB"
+      DTS:DelayValidation="True"
+      DTS:DTSID="{9B14EA3B-8833-45B8-B824-FDBA5256DB6B}"
+      DTS:ObjectName="AdventureWorks2012">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorks2012;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
+      DTS:CreationName="EXCEL"
+      DTS:DelayValidation="True"
+      DTS:DTSID="{8ADB34F2-A90F-49DA-8709-3ABD96E54078}"
+      DTS:ObjectName="Excel Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Projects\SSISPersonalTrainer\Inventory Worksheet.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\DFT - Data Conversion"
+      DTS:CreationName="{5918251B-2970-45A4-AB5F-01C3C588FE5A}"
+      DTS:DelayValidation="True"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{565281F1-5A25-4598-AA50-451129022035}"
+      DTS:ExecutableType="{5918251B-2970-45A4-AB5F-01C3C588FE5A}"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DFT - Data Conversion">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DFT - Data Conversion\Data Conversion"
+              componentClassID="{62B1106C-7DB8-4EC8-ADD6-4C664DFFC54A}"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DFT - Data Conversion\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Inputs[Data Conversion Input].Columns[ProductID]"
+                      cachedDataType="r8"
+                      cachedName="ProductID"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Inputs[Data Conversion Input].Columns[LocationID]"
+                      cachedDataType="r8"
+                      cachedName="LocationID"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[LocationID]" />
+                    <inputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Inputs[Data Conversion Input].Columns[Shelf]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Shelf"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[Shelf]" />
+                    <inputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Inputs[Data Conversion Input].Columns[Bin]"
+                      cachedDataType="r8"
+                      cachedName="Bin"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[Bin]" />
+                    <inputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Inputs[Data Conversion Input].Columns[PhysicalCount]"
+                      cachedDataType="r8"
+                      cachedName="PhysicalCount"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[PhysicalCount]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\DFT - Data Conversion\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedShelf]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="255"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedShelf]"
+                      name="ConvertedShelf"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[Shelf]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedProductID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedProductID]"
+                      name="ConvertedProductID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[ProductID]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedLocationID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedLocationID]"
+                      name="ConvertedLocationID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[LocationID]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedBin]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedBin]"
+                      name="ConvertedBin"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[Bin]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedPhysicalCount]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedPhysicalCount]"
+                      name="ConvertedPhysicalCount"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[PhysicalCount]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\DFT - Data Conversion\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet"
+              componentClassID="{8C084929-27D1-479F-9641-ABB7CDADF1AC}"
+              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Excel Source"
+              name="Excel SRC - Inventory Worksheet"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">Inventory_Worksheet</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mapping from parameters in the SQL command to variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output]"
+                  name="Excel Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[ProductID]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].ExternalColumns[ProductID]"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[ProductID]"
+                      name="ProductID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[LocationID]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].ExternalColumns[LocationID]"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[LocationID]"
+                      name="LocationID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[Shelf]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].ExternalColumns[Shelf]"
+                      length="255"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[Shelf]"
+                      name="Shelf"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[Bin]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].ExternalColumns[Bin]"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[Bin]"
+                      name="Bin"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[PhysicalCount]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].ExternalColumns[PhysicalCount]"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].Columns[PhysicalCount]"
+                      name="PhysicalCount"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].ExternalColumns[ProductID]"
+                      dataType="r8"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].ExternalColumns[LocationID]"
+                      dataType="r8"
+                      name="LocationID" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].ExternalColumns[Shelf]"
+                      dataType="wstr"
+                      length="255"
+                      name="Shelf" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].ExternalColumns[Bin]"
+                      dataType="r8"
+                      name="Bin" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output].ExternalColumns[PhysicalCount]"
+                      dataType="r8"
+                      name="PhysicalCount" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output]"
+                  isErrorOut="true"
+                  name="Excel Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[ProductID]"
+                      dataType="r8"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[ProductID]"
+                      name="ProductID" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[LocationID]"
+                      dataType="r8"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[LocationID]"
+                      name="LocationID" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[Shelf]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[Shelf]"
+                      name="Shelf" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[Bin]"
+                      dataType="r8"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[Bin]"
+                      name="Bin" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[PhysicalCount]"
+                      dataType="r8"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[PhysicalCount]"
+                      name="PhysicalCount" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DFT - Data Conversion\OLE DB Destination"
+              componentClassID="{4ADA7EAA-136C-4215-8098-D7A7C27FC0D1}"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[ShelfInventory]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DFT - Data Conversion\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[AdventureWorks2012]"
+                  connectionManagerRefId="Package.ConnectionManagers[AdventureWorks2012]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ConvertedShelf]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="ConvertedShelf"
+                      externalMetadataColumnId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Shelf]"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedShelf]" />
+                    <inputColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ConvertedProductID]"
+                      cachedDataType="i4"
+                      cachedName="ConvertedProductID"
+                      externalMetadataColumnId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedProductID]" />
+                    <inputColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ConvertedLocationID]"
+                      cachedDataType="i4"
+                      cachedName="ConvertedLocationID"
+                      externalMetadataColumnId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LocationID]"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedLocationID]" />
+                    <inputColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ConvertedBin]"
+                      cachedDataType="i4"
+                      cachedName="ConvertedBin"
+                      externalMetadataColumnId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Bin]"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedBin]" />
+                    <inputColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ConvertedPhysicalCount]"
+                      cachedDataType="i4"
+                      cachedName="ConvertedPhysicalCount"
+                      externalMetadataColumnId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PhysicalCount]"
+                      lineageId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output].Columns[ConvertedPhysicalCount]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Shelf]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Shelf" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LocationID]"
+                      dataType="i4"
+                      name="LocationID" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Bin]"
+                      dataType="i4"
+                      name="Bin" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PhysicalCount]"
+                      dataType="i4"
+                      name="PhysicalCount" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DFT - Data Conversion\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Data Conversion\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DFT - Data Conversion\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Data Conversion\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DFT - Data Conversion.Paths[Data Conversion Output]"
+              endId="Package\DFT - Data Conversion\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\DFT - Data Conversion\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\DFT - Data Conversion.Paths[Excel Source Output]"
+              endId="Package\DFT - Data Conversion\Data Conversion.Inputs[Data Conversion Input]"
+              name="Excel Source Output"
+              startId="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet.Outputs[Excel Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql11">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="187,42"
+          Id="Package\DFT - Data Conversion"
+          TopLeft="5.5,5.5" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\DFT - Data Conversion">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="222,42"
+          Id="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet"
+          TopLeft="13.5,36.5" />
+        <NodeLayout
+          Size="189,42"
+          Id="Package\DFT - Data Conversion\Data Conversion"
+          TopLeft="27,104.5" />
+        <EdgeLayout
+          Id="Package\DFT - Data Conversion.Paths[Excel Source Output]"
+          TopLeft="123,78.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26"
+              Start="0,0"
+              End="0,18.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="189,42"
+          Id="Package\DFT - Data Conversion\OLE DB Destination"
+          TopLeft="31,175.5" />
+        <EdgeLayout
+          Id="Package\DFT - Data Conversion.Paths[Data Conversion Output]"
+          TopLeft="123.5,146.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29"
+              Start="0,0"
+              End="0,21.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DFT - Data Conversion\Excel SRC - Inventory Worksheet">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DFT - Data Conversion\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

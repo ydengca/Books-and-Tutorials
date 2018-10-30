@@ -1,0 +1,47 @@
+Dts.Variables(“strFileName”).Value = “newvalue”
+MsgBox(Dts.Variables(“strFileName”).Value)
+
+
+Dim strInternal As String
+strInternal = “test”
+MsgBox(strInternal)
+
+
+Dts.Variables(“strFileName”).Value = strInternal
+
+
+If Dts.Variables(“intAuditCount”).Value > 0 Then
+   ‘code for the file found in the audit table
+Else
+   ‘code for the file not found in the audit table
+End If
+
+
+Dts.Connections(“AdventureWorks”).ConnectionString = _
+“Data Source=localhost;Initial Catalog=AdventureWorks2008;” + _
+“Provider=SQLNCLI10.1;Integrated Security=SSPI;”
+
+
+
+If File.Exists(Dts.Variables(“strFileName”).Value) Then
+    Dts.Variables(“bolFileExist”).Value = True
+Else
+    Dts.Variables(“bolFileExist”).Value = False
+End If
+
+
+Try
+    File.SetLastAccessTime(Dts.Variables(“strFileName”).Value, Today)
+Catch e As Exception
+    Dts.Variables(“bolFileInUse”).Value = True
+End Try
+
+
+
+If Dts.Variables(“intVar”).Value > 10 Then
+   Dts.Variables(“strVar”).Value = “Big”
+Else
+   Dts.Variables(“strVar”).Value = “Small”
+End If
+     
+MsgBox(Dts.Variables(“strVar”).Value)

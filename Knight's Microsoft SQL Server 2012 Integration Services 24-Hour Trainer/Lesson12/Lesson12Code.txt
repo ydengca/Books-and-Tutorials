@@ -1,0 +1,11 @@
+Select Cast(1 as decimal) as Col1
+
+
+Select Count(*) as Counter From Production.Product
+
+
+Select Count(*) as Counter from Production.Product where ProductID = ?
+
+
+Msgbox(DTS.Variables(“intProductCount”).Value)
+

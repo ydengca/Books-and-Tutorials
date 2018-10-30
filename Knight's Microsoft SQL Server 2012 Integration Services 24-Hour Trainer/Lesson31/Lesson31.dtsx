@@ -1,0 +1,760 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="7/11/2012 7:08:08 PM"
+  DTS:CreationName="SSIS.Package.3"
+  DTS:CreatorComputerName="FL-WS-CON-DK02"
+  DTS:CreatorName="PWCORP\dknight"
+  DTS:DelayValidation="True"
+  DTS:DTSID="{8C17C975-DC24-41FC-9F0B-6CE0007AFDFF}"
+  DTS:ExecutableType="SSIS.Package.3"
+  DTS:LastModifiedProductVersion="11.0.2100.60"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Lesson31"
+  DTS:PackageType="5"
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{D54602B5-7CA0-4FD9-B004-908E66840F15}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">6</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[AdventureWorks2012]"
+      DTS:CreationName="OLEDB"
+      DTS:DelayValidation="True"
+      DTS:DTSID="{7F781708-9897-46A1-B747-D55B3A107AFF}"
+      DTS:ObjectName="AdventureWorks2012">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorks2012;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Occupations]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{F7D78220-624F-4BF2-BA82-7B912B6720DE}"
+      DTS:ObjectName="Occupations">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Projects\SSISPersonalTrainer\FuzzyExample.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LASTNAME"
+              DTS:DTSID="{DC7DF404-8A2E-4EE0-8B50-AB6AF667C22B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FIRSTNAME"
+              DTS:DTSID="{9BDE055D-FED3-4EDC-9641-98E0D6881689}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TITLE"
+              DTS:DTSID="{810D8CDD-67F0-413E-B9A4-6C77AA05960D}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\DFT - Fuzzy Grouping"
+      DTS:CreationName="{5918251B-2970-45A4-AB5F-01C3C588FE5A}"
+      DTS:DelayValidation="True"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{9271E3BB-42C5-4311-B8FA-850DF6284FDE}"
+      DTS:ExecutableType="{5918251B-2970-45A4-AB5F-01C3C588FE5A}"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DFT - Fuzzy Grouping">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DFT - Fuzzy Grouping\Conditional Split"
+              componentClassID="{7F88F654-4E20-4D14-84F4-AF9C925D3087}"
+              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+              name="Conditional Split"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DFT - Fuzzy Grouping\Conditional Split.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Conditional Split.Inputs[Conditional Split Input].Columns[_key_in]"
+                      cachedDataType="i4"
+                      cachedName="_key_in"
+                      lineageId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_in]" />
+                    <inputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Conditional Split.Inputs[Conditional Split Input].Columns[_key_out]"
+                      cachedDataType="i4"
+                      cachedName="_key_out"
+                      lineageId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_out]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DFT - Fuzzy Grouping\Conditional Split.Outputs[Best Match]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Best Match"
+                  synchronousInputId="Package\DFT - Fuzzy Grouping\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">#{Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_in]} == #{Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_out]}</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">_key_in == _key_out</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DFT - Fuzzy Grouping\Conditional Split.Outputs[Delete]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="Delete"
+                  synchronousInputId="Package\DFT - Fuzzy Grouping\Conditional Split.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DFT - Fuzzy Grouping\Conditional Split.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\DFT - Fuzzy Grouping\Conditional Split.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Fuzzy Grouping\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Fuzzy Grouping\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping"
+              componentClassID="{836E0D0B-0358-45B4-B888-4ADCE9356D4E}"
+              contactInfo="Fuzzy Grouping;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
+              description="Identifies potential duplicate rows and helps standardize the data by selecting canonical replacements. For example, reduce the occurrences of typos in a 'company name' column by referencing an approved list of company names."
+              name="Fuzzy Grouping"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.Single"
+                  description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
+                  name="MinSimilarity">0.5</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the white-space and punctuation characters used to separate strings into multiple words."
+                  name="Delimiters"> .</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the maximum amount of memory (MB) that transform should use.  A value of 0 will enable dynamic memory usage based upon requirements and available system memory."
+                  expressionType="Notify"
+                  name="MaxMemoryUsage" />
+                <property
+                  dataType="System.Boolean"
+                  description="If true, each input record will be directly compared against EVERY other input record.  This may produce slightly better results, but will be extremely slow unless the number of input records is very small.  This option is primarily intended for debugging purposes and should be used with care."
+                  name="Exhaustive">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[AdventureWorks2012]"
+                  connectionManagerRefId="Package.ConnectionManagers[AdventureWorks2012]"
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Inputs[Fuzzy Grouping Input]"
+                  name="Fuzzy Grouping Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[OccupationLabel]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="OccupationLabel"
+                      lineageId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output].Columns[OccupationLabel]">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether to use the column to determine if two records are similar."
+                          name="ToBeCleaned">true</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
+                          name="ExactFuzzy"
+                          typeConverter="tcJoinType">2</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
+                          name="LeadingTrailingNumeralsSignificant"
+                          typeConverter="tcNumeralsSignificant">0</property>
+                        <property
+                          dataType="System.Single"
+                          description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
+                          name="MinSimilarity">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies how string data in a column is compared."
+                          name="FuzzyComparisonFlags"
+                          typeConverter="tcComparisonFlags">196611</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output]"
+                  name="Fuzzy Grouping Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_in]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_in]"
+                      name="_key_in">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">1</property>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column. The value must be a positive integer."
+                          name="InputId">#{Package\DFT - Fuzzy Grouping\-1:invalid}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_out]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_out]"
+                      name="_key_out">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">2</property>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column. The value must be a positive integer."
+                          name="InputId">#{Package\DFT - Fuzzy Grouping\-1:invalid}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_score]"
+                      dataType="r4"
+                      lineageId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_score]"
+                      name="_score">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">3</property>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column. The value must be a positive integer."
+                          name="InputId">#{Package\DFT - Fuzzy Grouping\-1:invalid}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[OccupationLabel]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[OccupationLabel]"
+                      name="OccupationLabel">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">5</property>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column. The value must be a positive integer."
+                          name="InputId">#{Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output].Columns[OccupationLabel]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[OccupationLabel_clean]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[OccupationLabel_clean]"
+                      name="OccupationLabel_clean">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">6</property>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column. The value must be a positive integer."
+                          name="InputId">#{Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output].Columns[OccupationLabel]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_Similarity_OccupationLabel]"
+                      dataType="r4"
+                      description="Column-level similarity score for fuzzy join on column &quot;OccupationLabel&quot;."
+                      lineageId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_Similarity_OccupationLabel]"
+                      name="_Similarity_OccupationLabel">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">4</property>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column. The value must be a positive integer."
+                          name="InputId">#{Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output].Columns[OccupationLabel]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DFT - Fuzzy Grouping\Occupation Load"
+              componentClassID="{D23FD76B-F51D-420F-BBCB-19CBF6AC1AB4}"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Occupation Load"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DFT - Fuzzy Grouping\Occupation Load.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Occupations]"
+                  connectionManagerRefId="Package.ConnectionManagers[Occupations]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output].Columns[OccupationLabel]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output].ExternalColumns[TITLE]"
+                      length="50"
+                      lineageId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output].Columns[OccupationLabel]"
+                      name="OccupationLabel"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output].ExternalColumns[LASTNAME]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="LASTNAME" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output].ExternalColumns[FIRSTNAME]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="FIRSTNAME" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output].ExternalColumns[TITLE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="TITLE" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DFT - Fuzzy Grouping\OLE DB Destination"
+              componentClassID="{4ADA7EAA-136C-4215-8098-D7A7C27FC0D1}"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Occupation_FuzzyGrouping]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[AdventureWorks2012]"
+                  connectionManagerRefId="Package.ConnectionManagers[AdventureWorks2012]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[OccupationLabel_clean]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="OccupationLabel_clean"
+                      externalMetadataColumnId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OccupationLabel]"
+                      lineageId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[OccupationLabel_clean]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OccupationID]"
+                      dataType="i2"
+                      name="OccupationID" />
+                    <externalMetadataColumn
+                      refId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OccupationLabel]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="OccupationLabel" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DFT - Fuzzy Grouping.Paths[Best Match]"
+              endId="Package\DFT - Fuzzy Grouping\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Best Match"
+              startId="Package\DFT - Fuzzy Grouping\Conditional Split.Outputs[Best Match]" />
+            <path
+              refId="Package\DFT - Fuzzy Grouping.Paths[Flat File Source Output]"
+              endId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Inputs[Fuzzy Grouping Input]"
+              name="Flat File Source Output"
+              startId="Package\DFT - Fuzzy Grouping\Occupation Load.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\DFT - Fuzzy Grouping.Paths[Fuzzy Grouping Output]"
+              endId="Package\DFT - Fuzzy Grouping\Conditional Split.Inputs[Conditional Split Input]"
+              name="Fuzzy Grouping Output"
+              startId="Package\DFT - Fuzzy Grouping\Fuzzy Grouping.Outputs[Fuzzy Grouping Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql11">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="182,42"
+          Id="Package\DFT - Fuzzy Grouping"
+          TopLeft="5.5,5.5" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\DFT - Fuzzy Grouping">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="159,42"
+          Id="Package\DFT - Fuzzy Grouping\Occupation Load"
+          TopLeft="7,61.5" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\DFT - Fuzzy Grouping\Fuzzy Grouping"
+          TopLeft="11,145.5" />
+        <EdgeLayout
+          Id="Package\DFT - Fuzzy Grouping.Paths[Flat File Source Output]"
+          TopLeft="87,103.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42"
+              Start="0,0"
+              End="0,34.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="156,42"
+          Id="Package\DFT - Fuzzy Grouping\Conditional Split"
+          TopLeft="7.5,220.5" />
+        <EdgeLayout
+          Id="Package\DFT - Fuzzy Grouping.Paths[Fuzzy Grouping Output]"
+          TopLeft="86.5,187.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33"
+              Start="0,0"
+              End="0,25.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="172,42"
+          Id="Package\DFT - Fuzzy Grouping\OLE DB Destination"
+          TopLeft="0.5,304.5" />
+        <EdgeLayout
+          Id="Package\DFT - Fuzzy Grouping.Paths[Best Match]"
+          TopLeft="86,262.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42"
+              Start="0,0"
+              End="0,34.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-23.60193359375,13.37548828125,47.2038671875,7.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DFT - Fuzzy Grouping\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

@@ -1,0 +1,1778 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="8/11/2011 7:56:41 AM"
+  DTS:CreationName="SSIS.Package.3"
+  DTS:CreatorComputerName="SSISMVP-RC0"
+  DTS:CreatorName="SSISMVP-RC0\MVP"
+  DTS:DTSID="{C4267F36-BC4F-40DC-845C-1D66A2C608EE}"
+  DTS:EnableConfig="True"
+  DTS:ExecutableType="SSIS.Package.3"
+  DTS:LastModifiedProductVersion="11.0.2100.60"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="1-PackageDependencies"
+  DTS:PackageType="5"
+  DTS:VersionBuild="11"
+  DTS:VersionGUID="{67FFE996-C112-4ED7-8A7A-15FEAC914682}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">6</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.AdventureWorksDW]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{9690478D-7627-4361-AC70-F8B42FA9BFE2}"
+      DTS:ObjectName="localhost.AdventureWorksDW">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorksDW2012;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:LoggingOptions
+    DTS:FilterKind="0"
+    DTS:LoggingMode="1">
+    <DTS:Property
+      DTS:DataType="8"
+      DTS:Name="EventFilter">6,22,PipelineInitialization,18,OnPipelineRowsSent,24,OnPipelinePrePrimeOutput,25,OnPipelinePostPrimeOutput,24,OnPipelinePreEndOfRowset,25,OnPipelinePostEndOfRowset</DTS:Property>
+    <DTS:Property
+      DTS:EventName="OnPipelinePostEndOfRowset"
+      DTS:Name="ColumnFilter">
+      <DTS:Property
+        DTS:Name="Computer">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="Operator">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceName">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="ExecutionID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="MessageText">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="DataBytes">0</DTS:Property>
+    </DTS:Property>
+    <DTS:Property
+      DTS:EventName="OnPipelinePostPrimeOutput"
+      DTS:Name="ColumnFilter">
+      <DTS:Property
+        DTS:Name="Computer">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="Operator">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceName">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="ExecutionID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="MessageText">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="DataBytes">0</DTS:Property>
+    </DTS:Property>
+    <DTS:Property
+      DTS:EventName="OnPipelinePreEndOfRowset"
+      DTS:Name="ColumnFilter">
+      <DTS:Property
+        DTS:Name="Computer">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="Operator">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceName">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="ExecutionID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="MessageText">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="DataBytes">0</DTS:Property>
+    </DTS:Property>
+    <DTS:Property
+      DTS:EventName="OnPipelinePrePrimeOutput"
+      DTS:Name="ColumnFilter">
+      <DTS:Property
+        DTS:Name="Computer">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="Operator">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceName">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="ExecutionID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="MessageText">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="DataBytes">0</DTS:Property>
+    </DTS:Property>
+    <DTS:Property
+      DTS:EventName="OnPipelineRowsSent"
+      DTS:Name="ColumnFilter">
+      <DTS:Property
+        DTS:Name="Computer">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="Operator">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceName">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="ExecutionID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="MessageText">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="DataBytes">0</DTS:Property>
+    </DTS:Property>
+    <DTS:Property
+      DTS:EventName="PipelineInitialization"
+      DTS:Name="ColumnFilter">
+      <DTS:Property
+        DTS:Name="Computer">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="Operator">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceName">0</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="ExecutionID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="MessageText">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="DataBytes">0</DTS:Property>
+    </DTS:Property>
+  </DTS:LoggingOptions>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Data Flow Task"
+      DTS:CreationName="SSIS.Pipeline.3"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{1A31F631-041E-49FA-9F8A-45228EA6017F}"
+      DTS:ExecutableType="SSIS.Pipeline.3"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Data Flow Task"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Data Flow Task\1"
+              componentClassID="{165A526D-D5DE-47FF-96A6-F8274C19826B}"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="1"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT     ResellerKey, GeographyKey, ResellerAlternateKey, Phone, BusinessType, ResellerName, NumberEmployees, OrderFrequency, OrderMonth, FirstOrderYear, 
+                      LastOrderYear, ProductLine, AddressLine1, AddressLine2, AnnualSales, BankName, MinPaymentType, MinPaymentAmount, AnnualRevenue, YearOpened
+FROM         DimReseller</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\1.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.AdventureWorksDW]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureWorksDW]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[ResellerKey]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerKey]"
+                      name="ResellerKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[GeographyKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[GeographyKey]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[GeographyKey]"
+                      name="GeographyKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerAlternateKey]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[ResellerAlternateKey]"
+                      length="15"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerAlternateKey]"
+                      name="ResellerAlternateKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[Phone]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[Phone]"
+                      length="25"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[Phone]"
+                      name="Phone"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[BusinessType]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[BusinessType]"
+                      length="20"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[BusinessType]"
+                      name="BusinessType"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[ResellerName]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerName]"
+                      name="ResellerName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[NumberEmployees]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[NumberEmployees]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[NumberEmployees]"
+                      name="NumberEmployees"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[OrderFrequency]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[OrderFrequency]"
+                      length="1"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[OrderFrequency]"
+                      name="OrderFrequency"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[OrderMonth]"
+                      dataType="ui1"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[OrderMonth]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[OrderMonth]"
+                      name="OrderMonth"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[FirstOrderYear]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[FirstOrderYear]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[FirstOrderYear]"
+                      name="FirstOrderYear"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[LastOrderYear]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[LastOrderYear]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[LastOrderYear]"
+                      name="LastOrderYear"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ProductLine]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[ProductLine]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ProductLine]"
+                      name="ProductLine"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AddressLine1]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[AddressLine1]"
+                      length="60"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AddressLine1]"
+                      name="AddressLine1"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AddressLine2]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[AddressLine2]"
+                      length="60"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AddressLine2]"
+                      name="AddressLine2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AnnualSales]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[AnnualSales]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AnnualSales]"
+                      name="AnnualSales"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[BankName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[BankName]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[BankName]"
+                      name="BankName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[MinPaymentType]"
+                      dataType="ui1"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[MinPaymentType]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[MinPaymentType]"
+                      name="MinPaymentType"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[MinPaymentAmount]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[MinPaymentAmount]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[MinPaymentAmount]"
+                      name="MinPaymentAmount"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AnnualRevenue]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[AnnualRevenue]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AnnualRevenue]"
+                      name="AnnualRevenue"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[YearOpened]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[YearOpened]"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[YearOpened]"
+                      name="YearOpened"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[ResellerKey]"
+                      dataType="i4"
+                      name="ResellerKey" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[GeographyKey]"
+                      dataType="i4"
+                      name="GeographyKey" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[ResellerAlternateKey]"
+                      dataType="wstr"
+                      length="15"
+                      name="ResellerAlternateKey" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[Phone]"
+                      dataType="wstr"
+                      length="25"
+                      name="Phone" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[BusinessType]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="BusinessType" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[ResellerName]"
+                      dataType="wstr"
+                      length="50"
+                      name="ResellerName" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[NumberEmployees]"
+                      dataType="i4"
+                      name="NumberEmployees" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[OrderFrequency]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      name="OrderFrequency" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[OrderMonth]"
+                      dataType="ui1"
+                      name="OrderMonth" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[FirstOrderYear]"
+                      dataType="i4"
+                      name="FirstOrderYear" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[LastOrderYear]"
+                      dataType="i4"
+                      name="LastOrderYear" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[ProductLine]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductLine" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[AddressLine1]"
+                      dataType="wstr"
+                      length="60"
+                      name="AddressLine1" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[AddressLine2]"
+                      dataType="wstr"
+                      length="60"
+                      name="AddressLine2" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[AnnualSales]"
+                      dataType="cy"
+                      name="AnnualSales" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[BankName]"
+                      dataType="wstr"
+                      length="50"
+                      name="BankName" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[MinPaymentType]"
+                      dataType="ui1"
+                      name="MinPaymentType" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[MinPaymentAmount]"
+                      dataType="cy"
+                      name="MinPaymentAmount" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[AnnualRevenue]"
+                      dataType="cy"
+                      name="AnnualRevenue" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].ExternalColumns[YearOpened]"
+                      dataType="i4"
+                      name="YearOpened" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ResellerKey]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ResellerKey]"
+                      name="ResellerKey" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[GeographyKey]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[GeographyKey]"
+                      name="GeographyKey" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ResellerAlternateKey]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ResellerAlternateKey]"
+                      name="ResellerAlternateKey" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[Phone]"
+                      dataType="wstr"
+                      length="25"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[Phone]"
+                      name="Phone" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[BusinessType]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[BusinessType]"
+                      name="BusinessType" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ResellerName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ResellerName]"
+                      name="ResellerName" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[NumberEmployees]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[NumberEmployees]"
+                      name="NumberEmployees" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[OrderFrequency]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[OrderFrequency]"
+                      name="OrderFrequency" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[OrderMonth]"
+                      dataType="ui1"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[OrderMonth]"
+                      name="OrderMonth" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[FirstOrderYear]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[FirstOrderYear]"
+                      name="FirstOrderYear" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[LastOrderYear]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[LastOrderYear]"
+                      name="LastOrderYear" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ProductLine]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ProductLine]"
+                      name="ProductLine" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[AddressLine1]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[AddressLine1]"
+                      name="AddressLine1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[AddressLine2]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[AddressLine2]"
+                      name="AddressLine2" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[AnnualSales]"
+                      dataType="cy"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[AnnualSales]"
+                      name="AnnualSales" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[BankName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[BankName]"
+                      name="BankName" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[MinPaymentType]"
+                      dataType="ui1"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[MinPaymentType]"
+                      name="MinPaymentType" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[MinPaymentAmount]"
+                      dataType="cy"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[MinPaymentAmount]"
+                      name="MinPaymentAmount" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[AnnualRevenue]"
+                      dataType="cy"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[AnnualRevenue]"
+                      name="AnnualRevenue" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[YearOpened]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[YearOpened]"
+                      name="YearOpened" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\2"
+              componentClassID="{165A526D-D5DE-47FF-96A6-F8274C19826B}"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="2"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT     ResellerKey, GeographyKey, ResellerAlternateKey, Phone, BusinessType, CompanyName, NumberEmployees, OrderFrequency, OrderMonth, FirstOrderYear, 
+                      LastOrderYear, ProductLine, AddressLine1, AddressLine2, AnnualSales, BankName, MinPaymentType, MinPaymentAmount, AnnualRevenue, YearOpened
+FROM         DimResellerTable2</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\2.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.AdventureWorksDW]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureWorksDW]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[ResellerKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[ResellerKey]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[ResellerKey]"
+                      name="ResellerKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[GeographyKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[GeographyKey]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[GeographyKey]"
+                      name="GeographyKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[ResellerAlternateKey]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[ResellerAlternateKey]"
+                      length="15"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[ResellerAlternateKey]"
+                      name="ResellerAlternateKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[Phone]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[Phone]"
+                      length="25"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[Phone]"
+                      name="Phone"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[BusinessType]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[BusinessType]"
+                      length="20"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[BusinessType]"
+                      name="BusinessType"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[CompanyName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[CompanyName]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[CompanyName]"
+                      name="CompanyName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[NumberEmployees]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[NumberEmployees]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[NumberEmployees]"
+                      name="NumberEmployees"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[OrderFrequency]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[OrderFrequency]"
+                      length="1"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[OrderFrequency]"
+                      name="OrderFrequency"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[OrderMonth]"
+                      dataType="ui1"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[OrderMonth]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[OrderMonth]"
+                      name="OrderMonth"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[FirstOrderYear]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[FirstOrderYear]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[FirstOrderYear]"
+                      name="FirstOrderYear"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[LastOrderYear]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[LastOrderYear]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[LastOrderYear]"
+                      name="LastOrderYear"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[ProductLine]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[ProductLine]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[ProductLine]"
+                      name="ProductLine"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[AddressLine1]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[AddressLine1]"
+                      length="60"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[AddressLine1]"
+                      name="AddressLine1"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[AddressLine2]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[AddressLine2]"
+                      length="60"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[AddressLine2]"
+                      name="AddressLine2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[AnnualSales]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[AnnualSales]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[AnnualSales]"
+                      name="AnnualSales"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[BankName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[BankName]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[BankName]"
+                      name="BankName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[MinPaymentType]"
+                      dataType="ui1"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[MinPaymentType]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[MinPaymentType]"
+                      name="MinPaymentType"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[MinPaymentAmount]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[MinPaymentAmount]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[MinPaymentAmount]"
+                      name="MinPaymentAmount"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[AnnualRevenue]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[AnnualRevenue]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[AnnualRevenue]"
+                      name="AnnualRevenue"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[YearOpened]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[YearOpened]"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].Columns[YearOpened]"
+                      name="YearOpened"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[ResellerKey]"
+                      dataType="i4"
+                      name="ResellerKey" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[GeographyKey]"
+                      dataType="i4"
+                      name="GeographyKey" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[ResellerAlternateKey]"
+                      dataType="wstr"
+                      length="15"
+                      name="ResellerAlternateKey" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[Phone]"
+                      dataType="wstr"
+                      length="25"
+                      name="Phone" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[BusinessType]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="BusinessType" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[CompanyName]"
+                      dataType="wstr"
+                      length="50"
+                      name="CompanyName" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[NumberEmployees]"
+                      dataType="i4"
+                      name="NumberEmployees" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[OrderFrequency]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      name="OrderFrequency" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[OrderMonth]"
+                      dataType="ui1"
+                      name="OrderMonth" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[FirstOrderYear]"
+                      dataType="i4"
+                      name="FirstOrderYear" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[LastOrderYear]"
+                      dataType="i4"
+                      name="LastOrderYear" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[ProductLine]"
+                      dataType="wstr"
+                      length="50"
+                      name="ProductLine" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[AddressLine1]"
+                      dataType="wstr"
+                      length="60"
+                      name="AddressLine1" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[AddressLine2]"
+                      dataType="wstr"
+                      length="60"
+                      name="AddressLine2" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[AnnualSales]"
+                      dataType="cy"
+                      name="AnnualSales" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[BankName]"
+                      dataType="wstr"
+                      length="50"
+                      name="BankName" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[MinPaymentType]"
+                      dataType="ui1"
+                      name="MinPaymentType" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[MinPaymentAmount]"
+                      dataType="cy"
+                      name="MinPaymentAmount" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[AnnualRevenue]"
+                      dataType="cy"
+                      name="AnnualRevenue" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Output].ExternalColumns[YearOpened]"
+                      dataType="i4"
+                      name="YearOpened" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[ResellerKey]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[ResellerKey]"
+                      name="ResellerKey" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[GeographyKey]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[GeographyKey]"
+                      name="GeographyKey" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[ResellerAlternateKey]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[ResellerAlternateKey]"
+                      name="ResellerAlternateKey" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[Phone]"
+                      dataType="wstr"
+                      length="25"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[Phone]"
+                      name="Phone" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[BusinessType]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[BusinessType]"
+                      name="BusinessType" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[CompanyName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[CompanyName]"
+                      name="CompanyName" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[NumberEmployees]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[NumberEmployees]"
+                      name="NumberEmployees" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[OrderFrequency]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[OrderFrequency]"
+                      name="OrderFrequency" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[OrderMonth]"
+                      dataType="ui1"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[OrderMonth]"
+                      name="OrderMonth" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[FirstOrderYear]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[FirstOrderYear]"
+                      name="FirstOrderYear" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[LastOrderYear]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[LastOrderYear]"
+                      name="LastOrderYear" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[ProductLine]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[ProductLine]"
+                      name="ProductLine" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[AddressLine1]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[AddressLine1]"
+                      name="AddressLine1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[AddressLine2]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[AddressLine2]"
+                      name="AddressLine2" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[AnnualSales]"
+                      dataType="cy"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[AnnualSales]"
+                      name="AnnualSales" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[BankName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[BankName]"
+                      name="BankName" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[MinPaymentType]"
+                      dataType="ui1"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[MinPaymentType]"
+                      name="MinPaymentType" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[MinPaymentAmount]"
+                      dataType="cy"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[MinPaymentAmount]"
+                      name="MinPaymentAmount" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[AnnualRevenue]"
+                      dataType="cy"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[AnnualRevenue]"
+                      name="AnnualRevenue" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[YearOpened]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[YearOpened]"
+                      name="YearOpened" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\2.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Derived Column"
+              componentClassID="{49928E82-9C4E-49F0-AABE-3812B82707EC}"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input].Columns[ResellerName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ResellerName"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerName]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[FullCompanyName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="55"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[FullCompanyName]"
+                      name="FullCompanyName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerName]} + " Inc."</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">CompanyName + " Inc."</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Union All"
+              componentClassID="{B594E9A8-4351-4939-891C-CFE1AB93E925}"
+              contactInfo="Union All;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combines rows from multiple data flows without sorting. For example, add rows back to a data flow after correction of errors. If sorting is important, we recommend using the Merge transformation."
+              name="Union All"
+              version="1">
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1]"
+                  name="Union All Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[ResellerKey]"
+                      cachedDataType="i4"
+                      cachedName="ResellerKey"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ResellerKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[GeographyKey]"
+                      cachedDataType="i4"
+                      cachedName="GeographyKey"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[GeographyKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[GeographyKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[ResellerAlternateKey]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="ResellerAlternateKey"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerAlternateKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ResellerAlternateKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[Phone]"
+                      cachedDataType="wstr"
+                      cachedLength="25"
+                      cachedName="Phone"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[Phone]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Phone]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[BusinessType]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="BusinessType"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[BusinessType]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[BusinessType]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[ResellerName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ResellerName"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ResellerName]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ResellerName]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[NumberEmployees]"
+                      cachedDataType="i4"
+                      cachedName="NumberEmployees"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[NumberEmployees]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[NumberEmployees]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[OrderFrequency]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="OrderFrequency"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[OrderFrequency]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderFrequency]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[OrderMonth]"
+                      cachedDataType="ui1"
+                      cachedName="OrderMonth"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[OrderMonth]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderMonth]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[FirstOrderYear]"
+                      cachedDataType="i4"
+                      cachedName="FirstOrderYear"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[FirstOrderYear]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[FirstOrderYear]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[LastOrderYear]"
+                      cachedDataType="i4"
+                      cachedName="LastOrderYear"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[LastOrderYear]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[LastOrderYear]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[ProductLine]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ProductLine"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[ProductLine]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ProductLine]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[AddressLine1]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="AddressLine1"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AddressLine1]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AddressLine1]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[AddressLine2]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="AddressLine2"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AddressLine2]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AddressLine2]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[AnnualSales]"
+                      cachedDataType="cy"
+                      cachedName="AnnualSales"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AnnualSales]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AnnualSales]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[BankName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="BankName"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[BankName]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[BankName]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[MinPaymentType]"
+                      cachedDataType="ui1"
+                      cachedName="MinPaymentType"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[MinPaymentType]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[MinPaymentType]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[MinPaymentAmount]"
+                      cachedDataType="cy"
+                      cachedName="MinPaymentAmount"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[MinPaymentAmount]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[MinPaymentAmount]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[AnnualRevenue]"
+                      cachedDataType="cy"
+                      cachedName="AnnualRevenue"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[AnnualRevenue]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AnnualRevenue]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[YearOpened]"
+                      cachedDataType="i4"
+                      cachedName="YearOpened"
+                      lineageId="Package\Data Flow Task\1.Outputs[OLE DB Source Output].Columns[YearOpened]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[YearOpened]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[FullCompanyName]"
+                      cachedDataType="wstr"
+                      cachedLength="55"
+                      cachedName="FullCompanyName"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[FullCompanyName]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[FullCompanyName]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Data Flow Task\Union All.Inputs[Union All Input 2]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Union All Input 2">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1]"
+                  name="Union All Output 1">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ResellerKey]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ResellerKey]"
+                      name="ResellerKey" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[GeographyKey]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[GeographyKey]"
+                      name="GeographyKey" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ResellerAlternateKey]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ResellerAlternateKey]"
+                      name="ResellerAlternateKey" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Phone]"
+                      dataType="wstr"
+                      length="25"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Phone]"
+                      name="Phone" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[BusinessType]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[BusinessType]"
+                      name="BusinessType" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ResellerName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ResellerName]"
+                      name="ResellerName" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[NumberEmployees]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[NumberEmployees]"
+                      name="NumberEmployees" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderFrequency]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderFrequency]"
+                      name="OrderFrequency" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderMonth]"
+                      dataType="ui1"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderMonth]"
+                      name="OrderMonth" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[FirstOrderYear]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[FirstOrderYear]"
+                      name="FirstOrderYear" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[LastOrderYear]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[LastOrderYear]"
+                      name="LastOrderYear" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ProductLine]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ProductLine]"
+                      name="ProductLine" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AddressLine1]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AddressLine1]"
+                      name="AddressLine1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AddressLine2]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AddressLine2]"
+                      name="AddressLine2" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AnnualSales]"
+                      dataType="cy"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AnnualSales]"
+                      name="AnnualSales" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[BankName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[BankName]"
+                      name="BankName" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[MinPaymentType]"
+                      dataType="ui1"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[MinPaymentType]"
+                      name="MinPaymentType" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[MinPaymentAmount]"
+                      dataType="cy"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[MinPaymentAmount]"
+                      name="MinPaymentAmount" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AnnualRevenue]"
+                      dataType="cy"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[AnnualRevenue]"
+                      name="AnnualRevenue" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[YearOpened]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[YearOpened]"
+                      name="YearOpened" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[FullCompanyName]"
+                      dataType="wstr"
+                      length="55"
+                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[FullCompanyName]"
+                      name="FullCompanyName" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Data Flow Task.Paths[Derived Column Output]"
+              endId="Package\Data Flow Task\Union All.Inputs[Union All Input 1]"
+              name="Derived Column Output"
+              startId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Data Flow Task.Paths[OLE DB Source Output]"
+              endId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Data Flow Task\1.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql11">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="152,42"
+          Id="Package\Data Flow Task"
+          TopLeft="248,140" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Data Flow Task">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Data Flow Task\Derived Column"
+          TopLeft="136,107.5" />
+        <NodeLayout
+          Size="86,42"
+          Id="Package\Data Flow Task\1"
+          TopLeft="34.5,8.5" />
+        <NodeLayout
+          Size="122,42"
+          Id="Package\Data Flow Task\Union All"
+          TopLeft="152.5,209.5" />
+        <NodeLayout
+          Size="86,42"
+          Id="Package\Data Flow Task\2"
+          TopLeft="170.5,5.5" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
+          TopLeft="77.5,50.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="136,57"
+              Start="0,0"
+              End="136,49.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.5"
+                    Point2="0,28.5"
+                    Point3="4,28.5" />
+                  <mssgle:LineSegment
+                    End="132,28.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="132,28.5"
+                    Point2="136,28.5"
+                    Point3="136,32.5" />
+                  <mssgle:LineSegment
+                    End="136,49.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Derived Column Output]"
+          TopLeft="213.5,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\2">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
